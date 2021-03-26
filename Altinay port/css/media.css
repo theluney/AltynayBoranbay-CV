@@ -1,0 +1,39 @@
+@media (max-width:650px){
+    .main__title{
+        font-size: 36px!important;
+    }
+}
+@media (max-width:530px){
+    .portfolio__title p::before{
+        display: none!important;
+    }
+    .portfolio__title p::after{
+        display: none!important;
+    }
+    .portfolio__title{
+        text-align: center;
+        width:220px!important;
+    }
+}
+@media (max-width:450px){
+    .contact__title p::before{
+        display: none!important;
+    }
+    .contact__title p::after{
+        display: none!important;
+    }
+    .contact__title{
+        text-align: center;
+        width:170px!important;
+    }
+    .about__title p::before{
+        display: none!important;
+    }
+    .about__title p::after{
+        display: none!important;
+    }
+    .about .about__title{
+        text-align: center;
+        width:120px!important;
+    }
+}
